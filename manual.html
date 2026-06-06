@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>5kvt</title>
+  <link class="styles" rel="stylesheet" href="style(1).css">
+</head>
+<body>
+  <header class="header">
+    <div class="top-bar">
+      <div class="container top-bar__container">
+        <nav class="top-nav">
+          <a href="#">Доставка и оплата</a>
+          <a href="#">Контакты</a>
+        </nav>
+        <div class="top-slogan">
+          <span class="gray-text">Построй и обустрой</span>
+          <span class="dots">•••</span>
+          <span>Всё для дома, дачи и стройки!</span>
+        </div>
+        <div class="top-actions">
+          <button class="icon-btn" aria-label="Сравнение">
+            <img src="icons/bar-chart-line 1.png" alt="Сравнение">
+          </button>
+          <button class="icon-btn" aria-label="Избранное">
+            <img src="icons/heart-line 5.png" alt="Избранное">
+          </button>
+          <button class="icon-btn" aria-label="Корзина">
+            <img src="icons/Vector.png" alt="Корзина">
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-bar">
+      <div class="container main-bar__container">
+        <a href="/" class="logo-link">
+          <img src="images/5kvt-brand-logo.png" alt="5 KVT" class="site-logo">
+        </a>
+
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Открыть меню">
+          <span></span>
+        </button>
+
+        <a href="tel:+74997199994" class="phone-link">+7 (499) 719-99-94</a>
+
+        <form class="search-form">
+          <input type="text" placeholder="Что ищем?..." class="search-input">
+          <button type="submit" class="search-btn">Поиск</button>
+        </form>
+
+        <div class="socials">
+          <a href="#" class="social-icon"><img src="icons/instagram.png" alt="Instagram"></a>
+          <a href="#" class="social-icon"><img src="icons/vkontakte.png" alt="VK"></a>
+          <a href="#" class="social-icon"><img src="icons/facebook (1) 1.png" alt="Facebook"></a>
+          <a href="#" class="social-icon"><img src="icons/movie 1.png" alt="YouTube"></a>
+        </div>
+
+        <a href="#" class="btn-addresses">Адреса магазинов</a>
+
+        <a href="#" class="profile-link" aria-label="Личный кабинет">
+          <img src="icons/user.png" alt="Профиль" class="profile-logo">
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-bar">
+      <div class="container menu-bar__container menu-bar__container--bg">
+        <div class="catalog-wrapper">
+          <button class="catalog-btn" id="catalogBtn">
+            <span class="burger-lines"></span>
+            Каталог
+          </button>
+          
+          <div class="catalog-dropdown" id="catalogDropdown">
+            <nav class="catalog-categories">
+              <div class="catalog-dropdown__header">
+                <span class="burger-lines"></span>
+                Каталог
+              </div>
+              <a href="#" class="catalog-dropdown__item active" data-category="accumulators">Аккумуляторы <span class="arrow-right"></span></a>
+              <a href="#" class="catalog-dropdown__item" data-category="control-blocks">Блоки контроля <span class="arrow-right"></span></a>
+              <a href="#" class="catalog-dropdown__item" data-category="generators">Генераторы <span class="arrow-right"></span></a>
+              <a href="#" class="catalog-dropdown__item" data-category="climate">Климатическая техника <span class="arrow-right"></span></a>
+              <a href="#" class="catalog-dropdown__item" data-category="heating">Отопление <span class="arrow-right"></span></a>
+              <a href="#" class="catalog-dropdown__item" data-category="perforators">Перфораторы <span class="arrow-right"></span></a>
+              <a href="#" class="catalog-dropdown__item" data-category="wires">Провода <span class="arrow-right"></span></a>
+              <a href="#" class="catalog-dropdown__item" data-category="chandeliers">Люстры <span class="arrow-right"></span></a>
+              <a href="#" class="catalog-dropdown__item" data-category="tools">Инструменты <span class="arrow-right"></span></a>
+              <a href="#" class="catalog-dropdown__item" data-category="electric">Электрика <span class="arrow-right"></span></a>
+            </nav>
+
+            <div class="catalog-subpanel">
+              <div class="subpanel-content active" id="cat-accumulators">
+                <div class="subpanel-grid">
+                  <div class="subpanel-col">
+                    <div class="subpanel-group">
+                      <a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Автомобильные АКБ</a>
+                      <div class="subpanel-nested">
+                        <a href="#">Кальциевые (Ca/Ca)</a>
+                        <a href="#">Гибридные (Sb/Ca)</a>
+                        <a href="#">Гелевые (GEL)</a>
+                      </div>
+                    </div>
+                    <div class="subpanel-group">
+                      <a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Промышленные АКБ</a>
+                      <div class="subpanel-nested">
+                        <a href="#">Для ИБП</a>
+                        <a href="#">Для солнечных батарей</a>
+                      </div>
+                    </div>
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Зарядные устройства</a></div>
+                  </div>
+                  <div class="subpanel-col">
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Клеммы и провода</a></div>
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Аксессуары</a></div>
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Тестеры батарей</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="subpanel-content" id="cat-control-blocks">
+                <div class="subpanel-grid">
+                  <div class="subpanel-col">
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Контроллеры напряжения</a></div>
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Модули управления АВР</a></div>
+                  </div>
+                  <div class="subpanel-col">
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Датчики и реле</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="subpanel-content" id="cat-generators">
+                <div class="subpanel-grid">
+                  <div class="subpanel-col">
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> - Бензиновые генераторы</a></div>
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Дизельные электростанции</a></div>
+                  </div>
+                  <div class="subpanel-col">
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Инверторные модели</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="subpanel-content" id="cat-climate">
+                <div class="subpanel-grid">
+                  <div class="subpanel-col">
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Кондиционеры</a></div>
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Обогреватели</a></div>
+                  </div>
+                  <div class="subpanel-col">
+                    <div class="subpanel-group"><a href="#" class="subpanel-title"><span class="toggle-icon">+</span> Очистители воздуха</a></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <nav class="main-nav">
+          <a href="#" class="nav-item">Аккумуляторы</a>
+          <a href="#" class="nav-item">Блоки контроля</a>
+          <a href="#" class="nav-item">Генераторы</a>
+          <a href="#" class="nav-item">Климатическая техника</a>
+          <a href="#" class="nav-item">Отопление</a>
+          <a href="#" class="nav-item">Перфораторы</a>
+          <a href="#" class="nav-item">Провода</a>
+          <a href="#" class="nav-item nav-item--muted">
+            Люстры
+            <span class="nav-arrow"></span>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-banner">
+    <div class="container hero-banner__container hero-banner__container--bg">
+      <div class="hero-content">
+        <h1 class="hero-title">Сильнее<br>Снегопада</h1>
+        <p class="hero-description">
+          Большой выбор снегоуборочных машин. Качественные устройства для любого бюджета
+        </p>
+        <div class="hero-controls">
+          <a href="#" class="btn-more">Подробнее</a>
+          <div class="slider-arrows">
+            <button class="arrow-btn arrow-btn--prev" aria-label="Назад"></button>
+            <button class="arrow-btn arrow-btn--next" aria-label="Вперед"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <img src="images/ChatGPT Image 29 мая 2026 г., 16_03_28(2).png" alt="Снегоуборщик" class="hero-image">
+        <div class="badge badge--orange">от 10800 ₽</div>
+        <div class="badge badge--blue">СНЕГОУБОРЩИКИ</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products-section" id="slider-months">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Товары месяца</h2>
+        <div class="slider-arrows">
+          <button class="arrow-btn arrow-btn--prev month-prev" aria-label="Назад"></button>
+          <button class="arrow-btn arrow-btn--next month-next" aria-label="Вперед"></button>
+        </div>
+      </div>
+      
+      <div class="slider-window">
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-card__top">
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/miter-saw-Photoroom.png" alt="HUTER ECS-100">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">HUTER ECS-100</span>
+              <h3 class="product-name">Станок для заточки цепей</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">2 441 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/cordless-drill-driver.png" alt="РЕСАНТА СШ-550-2">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">РЕСАНТА СШ-550-2</span>
+              <h3 class="product-name">Сетевой шуруповерт</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">2 362 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--new">NEW</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/wall-voltage-stabilizer-Photoroom.png" alt="РЕСАНТА АСН-600/1-И">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">РЕСАНТА АСН-600/1-И</span>
+              <h3 class="product-name">Стабилизатор напряжения</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">7 185 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--sell">SELL</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/floor-saw-cutter-Photoroom.png" alt="DIAM JRK-500/13.0L">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">DIAM JRK-500/13.0L 630058</span>
+              <h3 class="product-name">Резчик швов</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price-block">
+                  <span class="product-price">85 200 ₽</span>
+                  <span class="product-price--old">93 200 ₽</span>
+                </div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/industrial-fan-heater-Photoroom.png" alt="РЕСАНТА ТЭПК-3000К">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">РЕСАНТА ТЭПК-3000К</span>
+              <h3 class="product-name">Электрическая тепловая пушка</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">3 007 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/electric-wood-router.png" alt="РЕСАНТА ФМ-1300Э">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">РЕСАНТА ФМ-1300Э</span>
+              <h3 class="product-name">Фрезерная машина ручная</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">3 849 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--sell">SELL</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/hedge-trimmer-Photoroom.png" alt="ECHO HCR-165ES">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">ECHO HCR-165ES</span>
+              <h3 class="product-name">Бензоножницы профессиональные</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price-block">
+                  <span class="product-price">40 700 ₽</span>
+                  <span class="product-price--old">44 700 ₽</span>
+                </div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="novinki-section" id="slider-news">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Новинки</h2>
+        <div class="slider-arrows">
+          <button class="arrow-btn arrow-btn--prev news-prev" aria-label="Назад"></button>
+          <button class="arrow-btn arrow-btn--next news-next" aria-label="Вперед"></button>
+        </div>
+      </div>
+
+      <div class="slider-window">
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--new">NEW</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/wall-voltage-stabilizer-Photoroom.png" alt="Стабилизатор напряжения">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">РЕСАНТА АСН-600/1-И</span>
+              <h3 class="product-name">Стабилизатор напряжения</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">7 185 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--new">NEW</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/industrial-fan-heater-Photoroom.png" alt="Электрическая пушка">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">РЕСАНТА ТЭПК-3000К</span>
+              <h3 class="product-name">Электрическая пушка Ресанта</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">3 007 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--new">NEW</div>
+              <div class="product-image">
+                <img src="images/tile-saw-bench-Photoroom.png" alt="Станок камнерезный">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">NUOVA BATTIPAV SUPREME</span>
+              <h3 class="product-name">Станок камнерезный профессиональный</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">265 590 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--new">NEW</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/electric-wood-router.png" alt="Фрезерная машина">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">РЕСАНТА ФМ-1300Э</span>
+              <h3 class="product-name">Фрезерная машина ручная</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">3 849 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--new">NEW</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/miter-saw-Photoroom.png" alt="HUTER ECS-100">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">HUTER ECS-100</span>
+              <h3 class="product-name">Станок для заточки цепей</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">2 441 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--new">NEW</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/cordless-drill-driver.png" alt="РЕСАНТА СШ-550-2">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">РЕСАНТА СШ-550-2</span>
+              <h3 class="product-name">Сетевой шуруповерт</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price">2 362 ₽</div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="promo-banner-section">
+    <div class="container">
+      <div class="promo-banner">
+        <div class="promo-banner__image-left">
+          <img src="images/ups-power-station.png" alt="ИБП Гарант">
+        </div>
+        <div class="promo-banner__content">
+          <h2 class="promo-banner__title">
+            Стабилизаторы<br>
+            и Источники бесперебойного<br>
+            питания энергии
+          </h2>
+          <a href="#" class="promo-banner__btn">Перейти в каталог</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products-section" id="slider-promo">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Акции недели</h2>
+        <div class="slider-arrows">
+          <button class="arrow-btn arrow-btn--prev promo-prev" aria-label="Назад"></button>
+          <button class="arrow-btn arrow-btn--next promo-next" aria-label="Вперед"></button>
+        </div>
+      </div>
+
+      <div class="slider-window">
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--sell">SELL</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/hedge-trimmer-Photoroom.png" alt="ECHO HCR-165ES">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">ECHO HCR-165ES</span>
+              <h3 class="product-name">Бензоножницы</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price-block">
+                  <span class="product-price">40 700 ₽</span>
+                  <span class="product-price--old">44 700 ₽</span>
+                </div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--sell">SELL</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/floor-saw-cutter-Photoroom.png" alt="DIAM JRK-500/13.0L">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">DIAM JRK-500/13.0L 630058</span>
+              <h3 class="product-name">Резчик швов</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price-block">
+                  <span class="product-price">85 200 ₽</span>
+                  <span class="product-price--old">93 200 ₽</span>
+                </div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--sell">SELL</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/diamond-saw-blade-Photoroom.png" alt="DIAM MASTER LINE">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">DIAM MASTER LINE</span>
+              <h3 class="product-name">Алмазный диск (круг)</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price-block">
+                  <span class="product-price">1 280 ₽</span>
+                  <span class="product-price--old">1 680 ₽</span>
+                </div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--sell">SELL</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/electric-hand-planer-Photoroom.png" alt="ВИХРЬ Р-82СТ">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">ВИХРЬ Р-82СТ 72/5/3</span>
+              <h3 class="product-name">Электрический рубанок</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price-block">
+                  <span class="product-price">4 007 ₽</span>
+                  <span class="product-price--old">5 129 ₽</span>
+                </div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__top">
+              <div class="product-badge product-badge--sell">SELL</div>
+              <button type="button" class="wishlist-btn" aria-label="В избранное">
+                <img src="icons/heart-line 14.png" alt="">
+              </button>
+              <div class="product-image">
+                <img src="images/diamond-saw-blade-Photoroom.png" alt="DIAM MASTER LINE">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-brand">DIAM MASTER LINE V2</span>
+              <h3 class="product-name">Алмажный отрезной круг</h3>
+            </div>
+            <div class="product-card__footer-wrap">
+              <div class="product-card__footer">
+                <div class="product-price-block">
+                  <span class="product-price">1 150 ₽</span>
+                  <span class="product-price--old">1 490 ₽</span>
+                </div>
+                <button class="compare-btn" aria-label="Сравнить">
+                  <img src="icons/bar-chart-line 2.png" alt="">
+                </button>
+              </div>
+              <button class="product-cart-btn" type="button" aria-label="В корзину"><img src="icons/Vector3.png" alt="">В корзину</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages-section">
+    <div class="container">
+      <h2 class="advantages-title">Наши преимущества</h2>
+      <div class="advantages-grid">
+        <div class="advantage-card">
+          <div class="advantage-card__icon-wrap">
+            <img src="icons/luggage-cart-line 1.png" alt="Доставка" class="advantage-card__icon">
+          </div>
+          <h3 class="advantage-card__title">Удобная доставка 24/7</h3>
+          <p class="advantage-card__desc">Мы работаем с проверенными транспортными компаниями</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__icon-wrap">
+            <img src="icons/hand-coin-line 1.png" alt="Оплата" class="advantage-card__icon">
+          </div>
+          <h3 class="advantage-card__title">Оплата любым способом</h3>
+          <p class="advantage-card__desc">7 способов оплаты для вашего удобства</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__icon-wrap">
+            <img src="icons/shield-star-line 1.png" alt="Гарантия" class="advantage-card__icon">
+          </div>
+          <h3 class="advantage-card__title">Гарантия качества</h3>
+          <p class="advantage-card__desc">Перед покупкой мы надежно проверяем товар</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__icon-wrap">
+            <img src="icons/user-2-line 1.png" alt="Поддержка" class="advantage-card__icon">
+          </div>
+          <h3 class="advantage-card__title">Онлайн поддержка</h3>
+          <p class="advantage-card__desc">Менеджеры оперативно ответят на звонок или заявку</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-col--contacts">
+          <a href="/" class="footer-logo">
+            <img src="images/5kvt-brand-logo.png" alt="5 KVT">
+          </a>
+          <a href="tel:+74997199994" class="footer-phone">+7 (499) 719-99-94</a>
+          <a href="mailto:info@5kvt.ru" class="footer-email">info@5kvt.ru</a>
+          <p class="footer-text">Ежедневно 9:30 - 20:00 (МСК)</p>
+          <p class="footer-text footer-text--address">
+            117218, г. Москва,<br>
+            пр-кт Нахимовский .,дом 30/43,<br>
+            kв. 81
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col__title">Информация</h4>
+          <ul class="footer-menu">
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Оплата</a></li>
+            <li><a href="#">Производители</a></li>
+            <li><a href="#">Подарочные сертификаты</a></li>
+            <li><a href="#">Партнерская программа</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Все товары</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col__title">Служба поддержки</h4>
+          <ul class="footer-menu footer-menu--margin">
+            <li><a href="#">Возврат товара</a></li>
+          </ul>
+
+          <h4 class="footer-col__title">Личный кабинет</h4>
+          <ul class="footer-menu">
+            <li><a href="#">Личный кабинет</a></li>
+            <li><a href="#">История заказов</a></li>
+            <li><a href="#">Избранное</a></li>
+            <li><a href="#">Рассылка</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col--actions">
+          <div class="footer-socials">
+            <a href="#" aria-label="WhatsApp"><img src="icons/iconfinder-social-media-applications-23whatsapp-4102606_113811 1.png" alt=""></a>
+            <a href="#" aria-label="Telegram"><img src="icons/viber-svgrepo-com 1.png" alt=""></a>
+            <span class="footer-socials__text">Напишите нам</span>
+          </div>
+          
+          <a href="#" class="btn-footer-support">
+            <img src="icons/futer.png" alt="">
+            Служба поддержки
+          </a>
+
+          <div class="footer-payments">
+            <h5 class="footer-payments__title">Принимаем к оплате</h5>
+            <div class="footer-payments__logos">
+              <img src="icons/Group 42.png" alt="Mastercard">
+              <img src="icons/Group 39.png" alt="Maestro">
+              <img src="icons/Group 40.png" alt="Visa">
+              <img src="icons/Group 41.png" alt="Мир">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">Все права защищены. Указанная стоимость товаров и условия их приобретения действительны на текущую дату.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- МОБИЛЬНЫЙ ОВЕРЛЕЙ И ДРОВЕР -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div class="mobile-nav-drawer__header">
+      <span class="mobile-nav-drawer__logo"><span>&#x21AF;</span>5КВТ</span>
+      <button class="mobile-nav-drawer__close" id="mobileNavClose" aria-label="Закрыть">&#x00D7;</button>
+    </div>
+    <div class="mobile-nav-drawer__list" id="mobileNavList">
+      <a class="mobile-nav-item" data-sub="accumulators">Аккумуляторы <span class="arrow-right"></span></a>
+      <a class="mobile-nav-item" data-sub="control-blocks">Блоки контроля <span class="arrow-right"></span></a>
+      <a class="mobile-nav-item" data-sub="generators">Генераторы <span class="arrow-right"></span></a>
+      <a class="mobile-nav-item" data-sub="climate">Климатическая техника <span class="arrow-right"></span></a>
+      <a class="mobile-nav-item" data-sub="heating">Отопление <span class="arrow-right"></span></a>
+      <a class="mobile-nav-item" data-sub="perforators">Перфораторы <span class="arrow-right"></span></a>
+      <a class="mobile-nav-item" data-sub="wires">Провода <span class="arrow-right"></span></a>
+      <a class="mobile-nav-item" href="#">Люстры</a>
+      <a class="mobile-nav-item" href="#">Инструменты</a>
+      <a class="mobile-nav-item" href="#">Электрика</a>
+    </div>
+    <!-- Панель подкатегорий -->
+    <div class="mobile-nav-subpanel" id="mobileSubpanel">
+      <button class="mobile-nav-subpanel__back" id="mobileSubBack">Назад</button>
+      <div class="mobile-nav-subpanel__items" id="mobileSubItems"></div>
+    </div>
+  </div>
+
+  <script src="script(1).js"></script>
+</body>
+</html>

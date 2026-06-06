@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Выбор версии сайта</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+            margin: 0;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn-manual {
+            background-color: #4CAF50;
+        }
+        .btn-manual:hover {
+            background-color: #45a049;
+        }
+        .btn-bootstrap {
+            background-color: #007bff;
+        }
+        .btn-bootstrap:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Выберите версию сайта для просмотра:</h1>
+    
+    <div class="container">
+        <!-- Ссылки ведут на ваши переименованные файлы -->
+        <a href="manual.html" class="btn btn-manual">Ручная верстка</a>
+        <a href="bootstrap.html" class="btn btn-bootstrap">Верстка на Bootstrap</a>
+    </div>
+
+</body>
+</html>
